@@ -3,15 +3,14 @@
 # Email Spam Classification using LSTM
 
 An end-to-end Deep Learning pipeline built in Python to classify emails as **Spam** or **Ham (Not Spam)**. This project addresses class imbalance through downsampling, utilizes Natural Language Processing (NLP) for text preprocessing, and implements a Recurrent Neural Network (RNN) using an **LSTM (Long Short-Term Memory)** architecture built with TensorFlow/Keras.
-
-
+---
 
 # 🚀 Features
 1. **Data Downsampling:** Balances the dataset to match the number of spam and ham emails, preventing model bias.
 2. **Text Preprocessing Pipeline:** Automatic removal of the 'Subject' header, punctuation, and English stopwords.
 3. **Data Visualization:** Generates distribution count plots and insight-driven **WordClouds** for both spam and ham categories.
 4. **Deep Learning Model:** An LSTM-based binary classifier utilizing Word Embeddings, dynamic learning rate adjustment (`ReduceLROnPlateau`), and `EarlyStopping` to maximize accuracy without overfitting.
-
+---
 
 # 🛠️ Tech Stack & Libraries
 1. **Framework:** TensorFlow / Keras
@@ -20,13 +19,13 @@ An end-to-end Deep Learning pipeline built in Python to classify emails as **Spa
 4. **NLP Processing:** NLTK (Natural Language Toolkit), Python `string` module
 5. **Model Evaluation:** Scikit-learn
 
-
+---
 # 📋 Dataset
 The notebook is configured to process the `spam_ham_dataset.csv`. It expects a CSV file containing at least the following columns:
 * `text`: The raw email body context (including the subject line).
 * `label`: The target text classification (`spam` or `ham`).
 
-
+---
 
 # 💻 Installation & Usage
 
@@ -36,6 +35,7 @@ git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://gi
 cd YOUR_REPOSITORY_NAME
 
 ```
+---
 
 # 2. Install Dependencies
 
@@ -44,6 +44,7 @@ Ensure you have Python installed, then install the required packages:
 pip install numpy pandas seaborn matplotlib nltk wordcloud tensorflow scikit-learn
 
 ```
+---
 
 # 3. Running the Project
 
@@ -70,10 +71,7 @@ The model processes the text via the following layers:
 * `EarlyStopping` (monitors validation accuracy to prevent overfitting)
 * `ReduceLROnPlateau` (scales down learning rate when validation loss plateaus)
 
-
-
-
-
+---
 # 📊 Results & Performance
 
 The script evaluates performance on a separated 20% validation split and outputs:
@@ -81,7 +79,7 @@ The script evaluates performance on a separated 20% validation split and outputs
 * **Test Loss & Test Accuracy** metrics.
 * **Training History Graph:** A plot visualizing Training Accuracy vs. Validation Accuracy over training epochs to verify optimal model convergence.
 
-
+---
 
 # 🤝 Contributing
 
