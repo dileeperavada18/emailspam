@@ -3,8 +3,8 @@
 # Email Spam Classification using LSTM
 
 An end-to-end Deep Learning pipeline built in Python to classify emails as **Spam** or **Ham (Not Spam)**. This project addresses class imbalance through downsampling, utilizes Natural Language Processing (NLP) for text preprocessing, and implements a Recurrent Neural Network (RNN) using an **LSTM (Long Short-Term Memory)** architecture built with TensorFlow/Keras.
----
 
+---
 # 🚀 Features
 1. **Data Downsampling:** Balances the dataset to match the number of spam and ham emails, preventing model bias.
 2. **Text Preprocessing Pipeline:** Automatic removal of the 'Subject' header, punctuation, and English stopwords.
