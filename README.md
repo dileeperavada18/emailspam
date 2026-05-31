@@ -1,4 +1,3 @@
-Emailspam
 
 
 # Email Spam Classification using LSTM
