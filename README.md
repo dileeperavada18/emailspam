@@ -40,10 +40,10 @@ cd YOUR_REPOSITORY_NAME
 # 2. Install Dependencies
 
 Ensure you have Python installed, then install the required packages:
+```
+pip install numpy pandas seaborn matplotlib nltk wordcloud tensorflow scikit-learn
 
-**Packages**: pip install numpy pandas seaborn matplotlib nltk wordcloud tensorflow scikit-learn
-
-
+```
 
 # 3. Running the Project
 
